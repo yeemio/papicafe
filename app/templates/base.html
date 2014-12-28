@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{title}} - PaPiCafe</title>
+    {%else%}
+    <title>PaPiCafe</title>
+    {% endif %}
+</head>
+<body>
+<div>
+    PaPiCafe:<a href="/index">Home</a>
+</div>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>

@@ -6,6 +6,9 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="app.*" />
+          <option value="flask.ext.wtf.TextField" />
+          <option value="flask.ext.wtf.BooleanField" />
+          <option value="flask.ext.wtf.Required" />
         </list>
       </option>
     </inspection_tool>
