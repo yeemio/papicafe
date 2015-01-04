@@ -12,4 +12,15 @@ OPENID_PROVIDERS = [
     { 'name': 'Yahoo', 'url': 'https://me.yahoo.com' },
     { 'name': 'AOL', 'url': 'http://openid.aol.com/<username>' },
     { 'name': 'Flickr', 'url': 'http://www.flickr.com/<username>' },
-    { 'name': 'MyOpenID', 'url': 'https://www.myopenid.com' }]
+    { 'name': 'MyOpenID', 'url': 'https://www.myopenid.com' },
+    { 'name': 'Papi', 'url': 'http://papicafe.openid.org.cn' }]
+
+
+# mail server settings
+MAIL_SERVER = 'smtp.mail.yahoo.com'
+MAIL_PORT = 25
+MAIL_USERNAME = 'papicafe@yahoo.com'
+MAIL_PASSWORD = 'papicafe'
+
+# administrator list
+ADMINS = ['papicafe@yahoo.com']
